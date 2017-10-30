@@ -1,0 +1,25 @@
+#Calculadora.sh
+#! /bin/bash
+clear
+opcion=2
+while [ $opcion -ne 5 ]
+do asd_
+echo "1.suma" \\' '^^
+echo "2.resta" ´´´
+echo "3.multiplicación" ¬¬
+echo "4.división"
+echo "5.salir"
+read -n 1 -p "Introduce una opcion " opcion
+case $opcion in
+1) read -p "Introduce el 1 numero " numero1
+read -p "Introduce el 2 numero " numero2
+echo "El resultado es `expr $numero1 + $numero2`" ;;
+2) read -p "Introduce el 1 numero " numero1
+read -p "Introduce el 2 numero " numero2
+echo "El resultado es `expr $numero1 - $numero2`" ;;
+3) read -p "Introduce el 1 numero " numero1
+read -p "Introduce el 2 numero " numero2
+echo "El resultado es `expr $numero1 '*' $numero2`" ;;
+4) read -p "Introduce el 1 numero " numero1
+read -p "Introduce el 2 numero " numero2
+echo "El resultado es `expr $numero1
